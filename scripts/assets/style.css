@@ -1,0 +1,114 @@
+#validate-taxa-button, #validate-covariate-button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#validate-taxa-button:hover, #validate-covariate-button:hover {
+    background: #45a049;
+}
+
+#validate-taxa-button:disabled, #validate-covariate-button:disabled {
+    background: grey;
+    color: white; 
+    cursor: not-allowed;
+}
+
+#run-model-button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 'auto';
+    margin-right: 'auto';
+}
+
+#run-model-button:hover {
+    background: #45a049; 
+}
+
+#run-model-button:disabled{
+    background: grey;
+    color: white; 
+    cursor: not-allowed;
+}
+
+#cancel-model-button {
+    background: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    display:inline-block;
+   
+    margin-left: 'auto';
+    margin-right: 'auto';
+}
+
+#cancel-model-button:hover {
+    background: #e05260; 
+}
+
+
+#cancel-model-button:disabled{
+    background: grey;
+    color: white;
+    cursor: not-allowed;
+}
+
+#clear-all-data-button {
+    background: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display:inline-block;
+    vertical-align: middle;
+    margin:auto;
+}
+
+#clear-all-data-button:hover {
+    background: #e05260;
+}
+
+.progress-bar {
+    width: 85%;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+
+.progress-bar::progress-bar {
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
